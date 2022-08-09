@@ -1,8 +1,11 @@
-import './App.css';
+import Header from './components/Header/Header';
+import { AppWrapper } from './style.js'
 
 function App() {
   return (
-    <>Hello There</>
+    <AppWrapper>
+      <Header />
+    </AppWrapper>
   );
 }
 
