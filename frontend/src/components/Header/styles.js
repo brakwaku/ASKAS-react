@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
-export const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #DC9F04;
-    padding: 10px;
-    position: fixed;
     width: 100%;
 `;
 
