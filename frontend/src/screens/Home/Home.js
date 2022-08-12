@@ -1,5 +1,5 @@
 import Body from '../../components/Body/Body';
-import { MainWrapper } from './styles';
+import { MainWrapper } from './home.styles';
 
 const Home = () => {
   return (

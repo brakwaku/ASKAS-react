@@ -1,5 +1,5 @@
 import React from 'react'
-import { BodyBackground, BodyWrapper, MainHeader, MainQuote, QuoteAuthor } from "./style"
+import { BodyBackground, BodyWrapper, MainHeader, MainQuote, QuoteAuthor } from "./body.styles"
 
 const Body = () => {
     return (
