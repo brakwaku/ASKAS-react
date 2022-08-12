@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Home from './screens/Home/Home';
-import LoginScreen from './screens/Login/LoginScreen';
+import HomeScreen from './screens/Home/Home';
+import LoginScreen from './screens/Login/Login';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Header />}>
-          <Route index element={<Home />} />
+          <Route index element={<HomeScreen />} />
           <Route path='login' element={<LoginScreen />} />
         </Route>
       </Routes>

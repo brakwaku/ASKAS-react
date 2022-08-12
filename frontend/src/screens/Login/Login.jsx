@@ -7,7 +7,7 @@ import Loader from '../../components/Loader/Loader';
 import InputField from "../../components/InputField/InputField";
 import { validators } from "../../utils/Validator";
 import { login } from '../../actions/userActions';
-import { MainWrapper, CardWrapper, ButtonWrapper, BottomWrapper } from "./styles";
+import { MainWrapper, CardWrapper, ButtonWrapper, BottomWrapper } from "./login.styles";
 
 const LoginScreen = () => {
   document.title = "ASKAS | Login";
