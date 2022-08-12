@@ -21,4 +21,11 @@ export const NavWrapper = styled.div`
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    cursor: pointer;
+
+    >h4{
+        :hover {
+            color: red;
+        }
+    }
 `;
