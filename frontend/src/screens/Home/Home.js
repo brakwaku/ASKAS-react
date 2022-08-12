@@ -1,8 +1,8 @@
-import React from 'react'
+import { MainWrapper } from './styles';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <MainWrapper>Home</MainWrapper>
   )
 }
 
