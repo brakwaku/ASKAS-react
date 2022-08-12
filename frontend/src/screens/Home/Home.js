@@ -1,8 +1,11 @@
-import { MainWrapper } from './styles';
+import Body from '../../components/Body/Body';
+import { MainWrapper } from './home.styles';
 
 const Home = () => {
   return (
-    <MainWrapper>Home</MainWrapper>
+    <MainWrapper>
+      <Body />
+    </MainWrapper>
   )
 }
 
