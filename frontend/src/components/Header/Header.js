@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeaderWrapper, LogoImage, LogoWrapper, NavWrapper } from './styles'
-import Logo from '../../images/AskasLogo.png'
+import Logo from '../../assets/AskasLogo.png'
 
 const Header = () => {
 
