@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import { HeaderWrapper, LogoImage, LogoWrapper, NavWrapper } from './styles';
 import Logo from '../../assets/AskasLogo.png';
 
@@ -12,9 +12,9 @@ const Header = () => {
           <LogoImage src={Logo} alt="askas logo" />
         </LogoWrapper>
         <NavWrapper>
-          <h4>CONTACT</h4>
-          <h4>LOGIN</h4>
-          <h4>SIGN UP</h4>
+          <h4>Contact</h4>
+          <NavLink to='/login'>Login</NavLink>
+          <NavLink to='/signup'>signup</NavLink>
         </NavWrapper>
       </HeaderWrapper>
       <Outlet />
