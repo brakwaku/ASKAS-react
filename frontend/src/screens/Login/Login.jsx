@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
-// import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Message from '../../components/Message/Message';
 import Loader from '../../components/Loader/Loader';
 import InputField from "../../components/InputField/InputField";
@@ -19,15 +19,15 @@ const LoginScreen = () => {
   const userLogin = useSelector(state => state.userLogin);
   const { loading, error, userInfo } = userLogin;
 
-//   const navigate = useNavigate();
-//   const location = useLocation();
-//   const redirect = location.state ? location.state : '/';
+  const navigate = useNavigate();
+  const location = useLocation();
+  const redirect = location.state ? location.state : '/';
 
-//   useEffect(() => {
-//     if (userInfo) {
-//         navigate(redirect)
-//     }
-//   }, [navigate, userInfo, redirect])
+  useEffect(() => {
+    if (userInfo) {
+        navigate(redirect)
+    }
+  }, [navigate, userInfo, redirect])
 
   const submitHandler = (e) => {
       e.preventDefault();
