@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import media from '../../utils/media';
 
 export const MainWrapper = styled.div`
@@ -10,7 +10,8 @@ export const CardWrapper = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: 6rem auto 3rem auto;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02), 0 3px 10px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02),
+    0 3px 10px 0 rgba(0, 0, 0, 0.02);
 
   ${media.medium`
     width: 90%;
