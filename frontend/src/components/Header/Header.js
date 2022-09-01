@@ -4,10 +4,10 @@ import { HeaderWrapper, LogoImage, LogoWrapper, NavWrapper } from './styles';
 import Logo from '../../assets/AskasLogo.png';
 
 const Header = () => {
-    
+
   return (
     <>
-      <HeaderWrapper>
+      <HeaderWrapper className="p-3 align-items-center sticky-top">
         <LogoWrapper>
           <LogoImage src={Logo} alt="askas logo" />
         </LogoWrapper>
